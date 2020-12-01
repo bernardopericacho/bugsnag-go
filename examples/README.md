@@ -9,7 +9,7 @@ The examples that expose a HTTP port will all listen on 9001.
 * [Capturing panics within goroutines](using-goroutines). Goroutines require special care to avoid crashing the app entirely or cleaning up before an error report can be sent.
   This is an example of a panic within a goroutine which is sent to Bugsnag.
 * [Using net/http](http) (web server using the standard library)
-* [Using Gin](gin) (web framework)
-* [Using Negroni](negroni) (web framework)
-* [Using Martini](martini) (web framework)
-* [Using Revel](revelapp) (web framework)
+* [Using Gin](https://github.com/bugsnag/bugsnag-go-gin/tree/master/examples) (web framework)
+* [Using
+  Negroni](https://github.com/bugsnag/bugsnag-go-negroni/tree/master/examples) (web framework)
+* [Using Revel](https://github.com/bugsnag/bugsnag-go-revel/tree/master/examples) (web framework)
